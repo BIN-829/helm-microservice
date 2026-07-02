@@ -3,7 +3,7 @@
 # chart 를 압축해서 docs/ 폴더 안에 저장하기
 helm package . -d docs/
 # index.yaml 파일을 docs/ 폴더 안에 자동 생성하기
-helm repo index docs --url https:BIN-829.github.io/helm-microservice/
+helm repo index docs --url https://BIN-829.github.io/helm-microservice/
 
 # add, commit, push 한다
 git add .
