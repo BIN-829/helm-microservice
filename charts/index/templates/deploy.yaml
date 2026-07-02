@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: index-ctn
-        image: myoli999/index-app:1.0  
+        image: bin0829/index-app:1.0  
         ports:
         - containerPort: 80
         resources:

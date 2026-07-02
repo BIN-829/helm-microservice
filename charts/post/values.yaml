@@ -1,9 +1,10 @@
-# charts/post/values.yaml
+# charts/market/values.yaml
 
+# 디폴드값 
 replicaCount: 2
 
 image:  
-  repository: bin0829/post-app
+  repository: bin08299/market-app
   tag: "1.1"
   pullPolicy: IfNotPresent
 
